@@ -21,3 +21,26 @@
 
   margin-top: 0.5rem;
 }
+
+
+.home-about {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+
+    padding: 2rem 4rem;       /* padding vertical y horizontal */
+    max-width: 1300px;         /* limita el ancho del texto */
+    text-align: center;       /* centra el texto horizontalmente */
+    margin: 0 auto;           /* centra el contenedor */
+    line-height: 1.6;         /* mejora la legibilidad */
+    font-size: 1.2rem;        /* tamaño de letra más cómodo */
+}
+
+.tech-title{
+  color: white;
+
+}
+
+.tech-item{
+  color: white;
+  padding: 10px;
+}

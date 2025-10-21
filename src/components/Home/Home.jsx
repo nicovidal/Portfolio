@@ -5,6 +5,9 @@ import "./Home.css";
 export const Home = () => {
   const { t } = useTranslation();
 
+  // Lista de tecnologías
+  const tecnologias = ["Node.js", "React", "Express", "Spring Boot", "NestJS"];
+
   return (
     <section
       id="home"
@@ -37,8 +40,18 @@ export const Home = () => {
         {/* Subtítulo con gradient */}
         <p className="home-subtitle">{t("descripcion")}</p>
 
-        {/* Texto adicional, ejemplo sobre ti */}
+        {/* Texto adicional */}
         <p className="home-about">{t("about")}</p>
+
+        {/* Tecnologías */}
+        <h2 className="tech-title">Tecnologías</h2>
+        <div className="tech-container">
+          {tecnologias.map((tech, index) => (
+            <span key={index} className="tech-item">
+              {tech}
+            </span>
+          ))}
+        </div>
       </div>
     </section>
   );

@@ -1,6 +1,8 @@
 import { Home } from "../components/Home/Home";
 import { Navbar } from "../components/NavBar/NavBar";
-import { AboutMe } from "../components/AboutMe/AboutMe";
+import { Proyect } from "../components/Project/Proyect";
+import { Experience } from "../components/Experience/Experience";
+import { Contact } from "../components/Contact/Contact";
 
 export const MainPage = () => {
   return (
@@ -9,21 +11,11 @@ export const MainPage = () => {
 
       <Home />
 
-      <AboutMe />
+      <Experience />
 
-      <section
-        id="proyectos"
-        className="vh-100 d-flex align-items-center justify-content-center bg-light"
-      >
-        <h2>Proyectos</h2>
-      </section>
+      <Proyect/>
 
-      <section
-        id="contacto"
-        className="vh-100 d-flex align-items-center justify-content-center bg-dark text-white"
-      >
-        <h2>Contacto</h2>
-      </section>
+      <Contact/>
     </>
   );
 };

@@ -10,7 +10,7 @@ export const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-sm navbar-dark bg-black p-2 fixed-top">
+    <nav className="navbar navbar-expand-sm navbar-dark p-2 fixed-top">
       <div className="container-fluid">
         <div className="navbar-brand">Nicolás</div>
 
@@ -19,7 +19,7 @@ export const Navbar = () => {
             <Link
               className="nav-item nav-link"
               to="home"
-              smooth={true}
+              /*               smooth={true} */
               duration={700}
               offset={-70}
             >
@@ -28,7 +28,7 @@ export const Navbar = () => {
             <Link
               className="nav-item nav-link"
               to="sobre-mi"
-              smooth={true}
+              /*        smooth={true} */
               duration={700}
               offset={-70}
             >
@@ -36,8 +36,8 @@ export const Navbar = () => {
             </Link>
             <Link
               className="nav-item nav-link"
-              to="proyectos"
-              smooth={true}
+              to="proyect"
+              /*       smooth={true} */
               duration={700}
               offset={-70}
             >
@@ -45,8 +45,8 @@ export const Navbar = () => {
             </Link>
             <Link
               className="nav-item nav-link"
-              to="contacto"
-              smooth={true}
+              to="contact"
+              /*              smooth={true} */
               duration={700}
               offset={-70}
             >

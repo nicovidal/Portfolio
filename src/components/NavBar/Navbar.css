@@ -19,7 +19,8 @@
 }
 
 .navbar {
-  background-color: #000 !important;
+  background-color: rgba(0, 0, 0, 0); /* mismo color que el background con 80% de opacidad */
   padding: 1rem 2rem;
   z-index: 999;
+  backdrop-filter: blur(5px); /* opcional: desenfoque elegante */
 }
