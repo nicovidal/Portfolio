@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.home-name {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 3rem; /* ajusta tamaño */
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.home-subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  
+  /* Gradient effect */
+  background: linear-gradient(90deg, #ff6a00, #ee0979);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  margin-top: 0.5rem;
+}
