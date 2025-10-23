@@ -13,6 +13,7 @@ const resources = {
 
       // 🏠 Home
       saludo: "Hola, soy Nicolás Vidal",
+      carrera: "Ingeniero en Informatica",
       descripcion: "Desarrollador Full Stack",
       about:
         "Soy un desarrollador Full Stack apasionado por crear soluciones modernas y eficientes, tanto en backend como frontend. He participado en proyectos de los sectores bancario y retail, aportando consultoría técnica y desarrollando aplicaciones escalables. Me interesa el desarrollo web y mobile, y estoy en constante mejora aprendiendo nuevas tecnologías para seguir creciendo profesionalmente.",
@@ -48,6 +49,39 @@ const resources = {
       // 🧩 Textos comunes
       verProyecto: "Ver proyecto",
       tecnologiasUsadas: "Tecnologías usadas",
+
+      experience: {
+        sectionTitle: "Experiencia Laboral",
+        experiencesList: [
+          {
+            company: "Enacción Consultores",
+            role: "Consultor Informático | Desarrollador Full Stack",
+            date: "Nov. 2024 - Actualidad",
+            location: "Gran Santiago, Chile",
+            description:
+              "Diseño, desarrollo e implementación de soluciones de software a medida para diversos clientes, abarcando desde el análisis de requerimientos hasta la entrega de productos optimizados.",
+            skills: ["React.js", "AngularJS", "Spring Boot", "Node.js", "SQL"],
+          },
+          {
+            company: "Enacción Consultores (Práctica)",
+            role: "Consultor Informático Trainee",
+            date: "Sept. 2024 - Nov. 2024",
+            location: "Gran Santiago, Chile",
+            description:
+              "Práctica profesional, participando en desarrollo full stack y consultoría tecnológica en proyectos internos y para clientes.",
+            skills: ["React", "Node.js", "Spring Boot"],
+          },
+          {
+            company: "LicitaLAB",
+            role: "Encargado de Soporte y Operación de Software",
+            date: "May. 2021 - Feb. 2024",
+            location: "Gran Santiago, Chile",
+            description:
+              "Encargado del soporte técnico y la operación de software, garantizando la estabilidad del sistema en AWS y Azure, además del acompañamiento técnico a clientes.",
+            skills: ["AWS", "Azure", "Linux", "Soporte Técnico"],
+          },
+        ],
+      },
 
       // 💌 Contacto
       contact: {
@@ -95,8 +129,7 @@ const resources = {
         },
         bankApp: {
           title: "Banking App",
-          description:
-            "Example app for managing accounts and transactions.",
+          description: "Example app for managing accounts and transactions.",
         },
         ecommerce: {
           title: "E-commerce",
@@ -108,6 +141,39 @@ const resources = {
       // 🧩 Common
       verProyecto: "View project",
       tecnologiasUsadas: "Technologies used",
+
+      experience: {
+        sectionTitle: "Work Experience",
+        experiencesList: [
+          {
+            company: "Enaccion Consultants",
+            role: "IT Consultant | Full Stack Developer",
+            date: "Nov. 2024 - Present",
+            location: "Greater Santiago, Chile",
+            description:
+              "Design, develop, and implement custom software solutions for various clients, covering from requirements analysis to delivery of optimized products.",
+            skills: ["React.js", "AngularJS", "Spring Boot", "Node.js", "SQL"],
+          },
+          {
+            company: "Enaccion Consultants (Internship)",
+            role: "IT Consultant Trainee",
+            date: "Sept. 2024 - Nov. 2024",
+            location: "Greater Santiago, Chile",
+            description:
+              "Professional internship, participating in full stack development and tech consulting on internal and client projects.",
+            skills: ["React", "Node.js", "Spring Boot"],
+          },
+          {
+            company: "LicitaLAB",
+            role: "Software Support & Operations",
+            date: "May. 2021 - Feb. 2024",
+            location: "Greater Santiago, Chile",
+            description:
+              "Responsible for technical support and software operations, ensuring system stability on AWS and Azure, and providing technical guidance to clients.",
+            skills: ["AWS", "Azure", "Linux", "Technical Support"],
+          },
+        ],
+      },
 
       // 💌 Contact
       contact: {
@@ -159,13 +225,48 @@ const resources = {
         },
         ecommerce: {
           title: "Eコマース",
-          description: "ショッピングカートと決済機能を備えたオンラインストアプロジェクト。",
+          description:
+            "ショッピングカートと決済機能を備えたオンラインストアプロジェクト。",
         },
       },
 
       // 🧩 共通
       verProyecto: "プロジェクトを見る",
       tecnologiasUsadas: "使用技術",
+
+      // JP
+      experience: {
+        sectionTitle: "職務経験",
+        experiencesList: [
+          {
+            company: "エナクションコンサルタント",
+            role: "ITコンサルタント | フルスタック開発者",
+            date: "2024年11月 - 現在",
+            location: "サンティアゴ大都市圏、チリ",
+            description:
+              "さまざまなクライアント向けにカスタムソフトウェアソリューションを設計、開発、実装。要件分析から最適化された製品の納品まで担当。",
+            skills: ["React.js", "AngularJS", "Spring Boot", "Node.js", "SQL"],
+          },
+          {
+            company: "エナクションコンサルタント（インターン）",
+            role: "ITコンサルタント研修生",
+            date: "2024年9月 - 2024年11月",
+            location: "サンティアゴ大都市圏、チリ",
+            description:
+              "インターンシップとして、フルスタック開発および内部・クライアントプロジェクトでの技術コンサルティングに参加。",
+            skills: ["React", "Node.js", "Spring Boot"],
+          },
+          {
+            company: "LicitaLAB",
+            role: "ソフトウェアサポート・運用担当",
+            date: "2021年5月 - 2024年2月",
+            location: "サンティアゴ大都市圏、チリ",
+            description:
+              "AWSおよびAzure上でのシステムの安定性を確保し、クライアントへの技術サポートを提供しながら、ソフトウェアの運用管理を担当。",
+            skills: ["AWS", "Azure", "Linux", "テクニカルサポート"],
+          },
+        ],
+      },
 
       // 💌 連絡フォーム
       contact: {

@@ -11,7 +11,7 @@ export const Home = () => {
   return (
     <section
       id="home"
-      className="home-section vh-100 d-flex flex-column align-items-center justify-content-center text-center"
+      className="home-section vh-100 d-flex flex-column align-items-center justify-content-center text-center section-full"
       style={{
         backgroundImage: `url(${Background})`,
         backgroundSize: "cover",
@@ -37,8 +37,13 @@ export const Home = () => {
         {/* Nombre */}
         <h1 className="home-name">{t("saludo")}</h1>
 
+   
+       <p className="home-title">{t("carrera")}</p>
+
         {/* Subtítulo con gradient */}
         <p className="home-subtitle">{t("descripcion")}</p>
+
+
 
         {/* Texto adicional */}
         <p className="home-about">{t("about")}</p>
@@ -51,6 +56,15 @@ export const Home = () => {
               {tech}
             </span>
           ))}
+        </div>
+        <div className="cv-container">
+          <a
+            href="/CV_Nicolas_Vidal.pdf"
+            download="Nicolas_Vidal_CV.pdf"
+            className="cv-button"
+          >
+            {t("DescargarCV")}
+          </a>
         </div>
       </div>
     </section>

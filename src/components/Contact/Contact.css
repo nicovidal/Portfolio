@@ -1,11 +1,9 @@
-.contact-section {
-  background: rgba(255, 255, 255, 0.05);
-  padding: 4rem 2rem;
-  border-radius: 1rem;
-  text-align: center;
-  color: #000000;
+.contact-form-container {
   max-width: 600px;
   margin: 0 auto;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 1rem;
 }
 
 .contact-form {
@@ -23,6 +21,7 @@
 .form-group label {
   margin-bottom: 0.5rem;
   font-weight: 600;
+  color: #ffffff;
 }
 
 .form-group input,
@@ -31,9 +30,14 @@
   border: 1px solid #444;
   border-radius: 8px;
   padding: 0.8rem;
-  color: #000000;
+  color: #ffffff;
   font-size: 1rem;
   outline: none;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #ddd;
 }
 
 .form-group input:focus,
@@ -50,6 +54,7 @@
   font-weight: 600;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  color: #fff;
 }
 
 .contact-button:hover {

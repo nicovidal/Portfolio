@@ -35,7 +35,7 @@ export const Proyect = () => {
       : projectsData.filter((p) => p.category === filter);
 
   return (
-    <section id="proyect" className="projects-section">
+    <section id="proyect" className="projects-section section-full">
       <h2 className="section-title">{t("proyectos")}</h2>
 
       {/* 🔘 Botones de filtro */}

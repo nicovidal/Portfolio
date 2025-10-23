@@ -22,6 +22,19 @@
   margin-top: 0.5rem;
 }
 
+.home-title{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  
+  /* Gradient effect */
+  background: linear-gradient(90deg, #ff6a00, #ee0979);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  margin-top: 0.5rem;
+}
+
 
 .home-about {
     font-family: 'Poppins', sans-serif;
@@ -43,4 +56,24 @@
 .tech-item{
   color: white;
   padding: 10px;
+}
+
+.cv-container {
+  margin-top: 2rem;
+}
+
+.cv-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(90deg, #007bff, #00c4ff);
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.cv-button:hover {
+  background: linear-gradient(90deg, #0056b3, #0090c1);
+  transform: scale(1.05);
 }

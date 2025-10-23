@@ -27,12 +27,12 @@ export const Navbar = () => {
             </Link>
             <Link
               className="nav-item nav-link"
-              to="sobre-mi"
+              to="experience"
               /*        smooth={true} */
               duration={700}
               offset={-70}
             >
-              Sobre mí
+              Experiencia
             </Link>
             <Link
               className="nav-item nav-link"

@@ -1,0 +1,9 @@
+.section-full {
+  height: 100vh; /* altura de pantalla completa */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centrado vertical */
+  align-items: center; /* centrado horizontal */
+  position: relative;
+  overflow: hidden; /* evita scroll horizontal */
+}
