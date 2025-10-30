@@ -48,15 +48,32 @@
     font-size: 1.2rem;        /* tamaño de letra más cómodo */
 }
 
-.tech-title{
-  color: white;
-
+.tech-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
 }
 
-.tech-item{
+.tech-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: white;
-  padding: 10px;
+  font-size: 1rem;
+  transition: transform 0.2s ease;
 }
+
+.tech-item svg {
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+}
+
+.tech-item:hover {
+  transform: scale(1.1);
+}
+
 
 .cv-container {
   margin-top: 2rem;

@@ -35,9 +35,10 @@ const resources = {
             "Mi portafolio personal en React, mostrando proyectos y habilidades.",
         },
         bankApp: {
-          title: "Aplicación Bancaria",
+          title: "Motor de riesgo - Apertura tarjeta de credito",
           description:
-            "Aplicación de ejemplo para gestión de cuentas y transacciones.",
+            "Ecosistema de micro servicios y api's encargadas de seleccionar si un usuario puede optar a una tarjeta de credito",
+          subtitle:"Proyecto confidencial - Si quieres saber mas contactame"
         },
         ecommerce: {
           title: "E-commerce",

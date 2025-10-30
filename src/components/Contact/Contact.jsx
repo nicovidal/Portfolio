@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { useTranslation } from "react-i18next";
 import Background from "../../assets/BackGround_intro.jpg";
 import "./Contact.css";

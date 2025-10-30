@@ -1,4 +1,12 @@
 import { useTranslation } from "react-i18next";
+import { FaAngular, FaNodeJs, FaReact } from "react-icons/fa";
+import {
+  SiExpress,
+  SiSpringboot,
+  SiNestjs,
+  SiMongodb,
+  SiPostgresql,
+} from "react-icons/si";
 import Background from "../../assets/BackGround_intro.jpg";
 import "./Home.css";
 
@@ -6,7 +14,16 @@ export const Home = () => {
   const { t } = useTranslation();
 
   // Lista de tecnologías
-  const tecnologias = ["Node.js", "React", "Express", "Spring Boot", "NestJS"];
+  const tecnologias = [
+    { name: "Angular", icon: <FaAngular color="#E0234E" /> },
+    { name: "React", icon: <FaReact color="#61DAFB" /> },
+    { name: "Node.js", icon: <FaNodeJs color="#68A063" /> },
+    { name: "NestJS", icon: <SiNestjs color="#E0234E" /> },
+    { name: "Express", icon: <SiExpress color="#ffffff" /> },
+    { name: "Spring Boot", icon: <SiSpringboot color="#6DB33F" /> },
+    { name: "MongoDB", icon: <SiMongodb color="#23e033ff" /> },
+    { name: "PostgresSQL", icon: <SiPostgresql color="#236fe0ff" /> },
+  ];
 
   return (
     <section
@@ -37,13 +54,10 @@ export const Home = () => {
         {/* Nombre */}
         <h1 className="home-name">{t("saludo")}</h1>
 
-   
-       <p className="home-title">{t("carrera")}</p>
+        <p className="home-title">{t("carrera")}</p>
 
         {/* Subtítulo con gradient */}
         <p className="home-subtitle">{t("descripcion")}</p>
-
-
 
         {/* Texto adicional */}
         <p className="home-about">{t("about")}</p>
@@ -52,9 +66,10 @@ export const Home = () => {
         <h2 className="tech-title">Tecnologías</h2>
         <div className="tech-container">
           {tecnologias.map((tech, index) => (
-            <span key={index} className="tech-item">
-              {tech}
-            </span>
+            <div key={index} className="tech-item">
+              {tech.icon}
+              <span>{tech.name}</span>
+            </div>
           ))}
         </div>
         <div className="cv-container">
