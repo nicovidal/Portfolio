@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { CardProject } from "./CardProject";
 import { useTranslation } from "react-i18next";
+import Background from "../../assets/BackGround_intro.jpg";
 import "./Proyect.css";
 
 const projectsData = [
@@ -35,11 +36,26 @@ export const Proyect = () => {
       : projectsData.filter((p) => p.category === filter);
 
   return (
-    <section id="proyect" className="projects-section section-full">
+    <section
+      id="proyect"
+      className="projects-section section-full"
+      style={{
+        backgroundImage: `url(${Background})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        position: "relative",
+      }}
+    >
+      
       <h2 className="section-title">{t("proyectos")}</h2>
 
       {/* 🔘 Botones de filtro */}
-      <div className="filter-buttons" role="tablist" aria-label={t("filtro.ariaLabel")}>
+      <div
+        className="filter-buttons"
+        role="tablist"
+        aria-label={t("filtro.ariaLabel")}
+      >
         <button
           className={filter === "todos" ? "active" : ""}
           onClick={() => setFilter("todos")}
